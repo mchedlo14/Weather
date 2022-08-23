@@ -1,3 +1,6 @@
+*{
+    font-family: 'DynaPuff', cursive;
+}
 .weather-wrapper{
     width: 100%;
     height: 100vh;
@@ -5,10 +8,12 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    background-color: whitesmoke;
 }
 .input-wrapper{
     display: flex;
     align-items: center;  
+    justify-content: center;
 }
 .input-wrapper input{
     width: 30px;
@@ -19,6 +24,7 @@
     font-size: 25px;
     border-bottom: 1px solid rgb(182, 180, 180);
     text-align: center;
+    background-color: whitesmoke;
 }
 .input-wrapper p{
     color: rgb(182, 180, 180);
@@ -30,10 +36,9 @@
 .information-wrapper{
     margin-top: 50px;
     display: flex;
-    gap: 80px;
+    gap: 70px;
 }
 .detail-information{
-    height: 150px;
     display: flex;
     flex-direction: column;
 }
@@ -44,6 +49,7 @@
 }
 .detail p{
     font-size: 25px;
+    max-width: 60px;
 }
 .celsius-container{
     height: 200px;

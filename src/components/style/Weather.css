@@ -1,0 +1,27 @@
+.weather-wrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.input-wrapper{
+    display: flex;
+    align-items: center;
+
+}
+.input-wrapper input{
+    width: 30px;
+    border: 0;
+    outline: none;
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: 1px solid rgb(182, 180, 180);
+    text-align: center;
+}
+.input-wrapper p{
+    color: rgb(182, 180, 180);
+    font-size: 20px;
+}

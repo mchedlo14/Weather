@@ -24,13 +24,13 @@ const Weather = () => {
     },[])
 
     useEffect(() => {
-        fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lng}&appid=7c670146e0f9b6f274b52e8513984eb5`)
+        fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lng}&appid=3904a619c0f5dcf46f467b1944ab6d1d`)
         .then(response => response.json())
         .then(data => setLocationWeather(data))
     })
 
     useEffect(() => {
-        fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=7c670146e0f9b6f274b52e8513984eb5`)
+        fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=3904a619c0f5dcf46f467b1944ab6d1d`)
         .then(response => response.json())
         .then(data => setWeatherData(data))
     },[city])

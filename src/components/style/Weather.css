@@ -8,8 +8,7 @@
 }
 .input-wrapper{
     display: flex;
-    align-items: center;
-
+    align-items: center;  
 }
 .input-wrapper input{
     width: 30px;
@@ -17,11 +16,63 @@
     outline: none;
     padding: 5px 10px;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 25px;
     border-bottom: 1px solid rgb(182, 180, 180);
     text-align: center;
 }
 .input-wrapper p{
     color: rgb(182, 180, 180);
-    font-size: 20px;
+    font-size: 25px;
+}
+.icon-container{
+    height: 150px;
+}
+.information-wrapper{
+    margin-top: 50px;
+    display: flex;
+    gap: 80px;
+}
+.detail-information{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+}
+.detail{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+.detail p{
+    font-size: 25px;
+}
+.celsius-container{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c{
+    font-size:80px;
+}
+.celsius-container p{
+    font-size: 100px;
+    margin: 0;
+}
+.icon-container p{
+    font-size: 40px;
+}
+.icon-image{
+    width:40px ;
+    height:40px ;
+}
+.detail-icon{
+    display: flex;
+    align-items: center;
+}
+span{
+    font-size: 13px;
+}
+.condition-icon{
+    width: 170px;
+    height: 170px;
 }
